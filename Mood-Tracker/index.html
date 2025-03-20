@@ -11,6 +11,7 @@
         <div class="container-moods">
             <div>
                 <h1>Mood Tracker</h1>
+                <h3>Please select the date from the calendar then choose the emoji and click on save mood</h3>
             </div>
             
             <div class="mood-input">
@@ -29,13 +30,14 @@
 
         <div class="calendar-area">
             <h2>Past Moods</h2>
-            <div class="view-selector">
-                <button class="view-btn"  id="day">Day View</button>
-                <button class="view-btn"  id="week">Week View</button>
-                <button class="view-btn"  id="month">Month View</button>
-            </div>
+            
             <div id="mood-timeline">
-                
+                <div class="calendar-header">
+                    <button id="prev-month">◀</button>
+                    <h3 id="month-year">March 2025</h3>
+                    <button id="next-month">▶</button>
+                </div>
+                <div class="calendar-grid"></div>
             </div>
         </div>
     </div>
